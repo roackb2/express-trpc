@@ -2,11 +2,10 @@
   "name": "express-trpc",
   "version": "1.0.0",
   "description": "An sample project to use tRPC in express backend",
-  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "dev:server": "tsx watch server",
-    "start": "npx tsc && node dist/index.js",
+    "start": "tsc && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -22,7 +21,11 @@
   "devDependencies": {
     "@types/node": "^20.5.6",
     "eslint": "^8.48.0",
-    "typescript": "^5.2.2",
-    "tsx": "^3.12.7"
+    "module-alias": "^2.2.3",
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2"
+  },
+  "_moduleAliases": {
+    "@server": "dist"
   }
 }
