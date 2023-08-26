@@ -9,8 +9,8 @@
     "baseUrl": "./",
     "paths": {
       "@server/*": ["server/*"],
-      "@client/*": ["client/*"]
+      "@client-cli/*": ["client-cli/*"]
     }
   },
-  "include": ["server", "client"]
+  "include": ["server", "client-cli"]
 }

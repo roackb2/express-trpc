@@ -1,0 +1,13 @@
+{
+  "name": "express-trpc-client-cli",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@trpc/client": "^10.38.0",
+    "node-fetch": "2",
+    "undici": "^5.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.16"
+  }
+}
